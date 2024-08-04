@@ -10,4 +10,3 @@
 
 ## Docker hub에서 이미지 받아 실행 
  sudo docker run -d -p 80:8080 --name devops_step1 --restart always {본인의 docker hub 계정명}/devops_step1:latest
-# devops_step1
