@@ -1,5 +1,5 @@
 ## 처음 실행시 문제점 
-### 해당 소스 받아 실행하면 DevopsStep1ApplicationTests 클래스의 test2() 메소드에서 오류 발생함   
+### 해당 소스 받아 실행하면 DevopsStep1ApplicationTests 클래스의 test2() 메소드에서 오류 발생함<br/>
 test2() 메서드 주석 처리해주세요.   
 그리고 gradlew build 실행하면 결과 파일(build/libs/*.jar) 생성됩니다 
 
