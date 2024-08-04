@@ -59,4 +59,4 @@ jobs:
     - name: Docker run
       run: |
         sudo docker stop devops_step1 && sudo docker rm devops_step1 && sudo docker rmi ${{ secrets.DOCKER_USERNAME }}/devops_step1:latest
-        sudo docker run -d -p 8080:8090 --name devops_step1 --restart always ${{ secrets.DOCKER_USERNAME }}/devops_step1:latest
+        sudo docker run -d -p 8090:8090 --name devops_step1 --restart always ${{ secrets.DOCKER_USERNAME }}/devops_step1:latest
